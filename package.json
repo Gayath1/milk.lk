@@ -38,8 +38,9 @@
     "@babel/preset-env": "^7.11.5",
     "nodemon": "^2.0.4"
   },
+
   "scripts": {
-    "start": "nodemon -- watch backend -- exec babel-node backend/server.js"
+    "start": "nodemon --watch backend --exec babel-node backend/server.js"
   },
   "repository": {
     "type": "git",
